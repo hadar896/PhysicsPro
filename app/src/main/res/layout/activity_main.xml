@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.physicspro.Main">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:background="@android:color/background_light"
+        android:text="לומדים פיזיקה- חוקי ניוטון"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:text="עדכן"
+            android:onClick="set"
+            android:textColor="@android:color/holo_red_dark"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="הכנס את שמך"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="     לחוק ראשון לחץ כאן     "
+        android:onClick="one"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="@android:color/holo_red_dark" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:onClick="two"
+        android:text="      לחוק שני לחץ כאן       "
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+
+        android:textStyle="bold"
+        android:onClick="three"
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="     לחוק שלישי לחץ כאן      "
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="133dp"
+        android:layout_height="117dp"
+        app:srcCompat="@drawable/doit" />
+
+</LinearLayout>
